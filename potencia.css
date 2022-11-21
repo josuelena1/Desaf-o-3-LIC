@@ -1,0 +1,8 @@
+/* creación del menú*/
+
+.menu {
+    background-color: rgb(105, 136, 164);
+    width: 100%;
+    top: 0;
+    position: fixed; 
+}
