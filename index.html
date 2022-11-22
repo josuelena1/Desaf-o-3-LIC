@@ -3,6 +3,7 @@
 <head>
     <title>Potencia</title>
     <link rel="stylesheet" href="potencia.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="cuerpo">
@@ -18,18 +19,18 @@
 
         <!-- Cuerpo -->
         <div class="cuerpo">
-            <div>Ingrese la base: <input type="text" name="base" size="15" maxlength="15"> </div>
+            <div>Ingrese la base: <input type="text" name="base" size="15" maxlength="15" id="idbase"> </div>
             <br>
-            <div>Ingrese la potencia: <input type="text" name="potencia" size="15" maxlength="15"></div>
+            <div>Ingrese la potencia: <input type="text" name="potencia" size="15" maxlength="15" id="idpotencia"></div>
             <br>
-            <div>Resultado: <input type="text" name="resultado" size="15" maxlength="15"></div>
+            <div>Resultado: <input type="text" name="resultado" size="15" maxlength="15" id="idresultado"></div>
             <br>
 
 
             <div>
                 <center>
-                    <button>Calcular</button>
-                <button>Eliminar</button>
+                    <input type="submit" value="Enviar" id="idenviar">
+                    <input type="reset" value="Borrar" id="idborrar">
                 </center>
             </div>
 

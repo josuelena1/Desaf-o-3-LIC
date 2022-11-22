@@ -18,8 +18,13 @@
 
     Un ejemplo se encuentra en la linea 63 de dicho codigo
 */
-class MathOp{
 
+const iniciar = function (){
+    const enviar =document.getElementById('idenviar');
+    cons
+}
+class MathOp{
+    
     constructor (base, pow) {
         this.base = base;
         this.pow = parseInt(pow);   
@@ -57,7 +62,5 @@ class MathOp{
     }
 }
 
-var base = 0;  //Cambiar por elemento html (Base de la potencia)
-var pow = 0; //Cambiar por elemento html (Potencia)
+ //Cambiar por elemento html (Potencia)
 
-var proto1 =  new MathOp(-3 , 1);
